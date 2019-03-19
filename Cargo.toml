@@ -1,0 +1,8 @@
+[package]
+name = "authfail"
+version = "0.1.0"
+authors = ["Vesa Vilhonen"]
+edition = "2018"
+
+[dependencies]
+net2 = "0.2.33"

@@ -1,0 +1,11 @@
+GET /signalk/v1/stream?subscribe=none HTTP/1.1
+Host: 192.168.9.134:80
+Connection: Upgrade
+Upgrade: websocket
+Sec-WebSocket-Version: 13
+Sec-WebSocket-Key: qkWrwdt+4fb78wgatElVRQ==
+Sec-WebSocket-Protocol: arduino
+Origin: file://
+User-Agent: arduino-WebSocket-Client
+Authorization: JWT 123456
+
